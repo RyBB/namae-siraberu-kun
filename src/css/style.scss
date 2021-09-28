@@ -1,0 +1,36 @@
+.lego-left {
+  width: 100%;
+  cursor: pointer;
+  div {
+    text-align: center;
+    canvas {
+      margin: auto;
+    }
+  }
+}
+.lego-right {
+  width: 100%;
+  div {
+    font-size: 2em;
+    background-color: #fff;
+    padding: 0 5px;
+    position: absolute;
+  }
+}
+
+#upleft {
+  top: 240px;
+  left: calc(50% - 400px);
+}
+#upright {
+  top: 240px;
+  right: calc(50% - 400px);
+}
+#downleft {
+  top: 610px;
+  left: calc(50% - 400px);
+}
+#downright {
+  top: 610px;
+  right: calc(50% - 400px);
+}

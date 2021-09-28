@@ -1,0 +1,17 @@
+{
+  "app": "23",
+  "scope": "ALL",
+  "desktop": {
+    "js": [
+      "https://js.cybozu.com/sweetalert/v2.1.2/sweetalert.min.js",
+      "https://obniz.io/js/jquery-3.2.1.min.js",
+      "https://unpkg.com/obniz@latest/obniz.js",
+      "dist/js/customize.js"
+    ],
+    "css": ["dist/css/style.css"]
+  },
+  "mobile": {
+    "js": [],
+    "css": []
+  }
+}
